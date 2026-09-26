@@ -1,0 +1,9 @@
+# Keep the unrelated local HR project copy out of this repository.
+/HR ANALYTICS/
+
+# Local/editor and temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.log
