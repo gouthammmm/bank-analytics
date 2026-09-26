@@ -31,7 +31,17 @@ The script is read-only apart from selecting the `excelr` database. If your loca
 
 This aggregated preview is generated from the `Finance_1` workbook data. It shows portfolio-level counts and rates, not a captured Power BI or Tableau screen, and contains no borrower-level rows.
 
+### Portfolio overview
+
 ![Aggregated historical loan portfolio preview](screenshots/portfolio-overview.png)
+
+### Loan status composition
+
+![Aggregated loan status composition](screenshots/loan-status.png)
+
+### Resolved outcomes by term
+
+![Observed resolved-loan outcomes by term](screenshots/resolved-by-term.png)
 
 The resolved-loan rate queries count only rows labeled fully paid, charged off, or defaulted. Current, late, and other unresolved statuses are excluded from that denominator. The state comparison excludes groups with fewer than 100 resolved loans to reduce noise in small samples.
 
